@@ -1,6 +1,8 @@
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Работа с исключениями");
+        LoginBlog loginBlog = new LoginBlog();
+        loginBlog.checkLoginTry("S!dfds123", "sdfesf543", "sdfesf543");
 
     }
 }
